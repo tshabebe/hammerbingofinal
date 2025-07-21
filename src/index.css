@@ -8,6 +8,7 @@
 }
 
 body {
-  background: url(bg_game-m10Pk1HC.jpg) no-repeat center center fixed;
+  /* Use absolute path so Vite picks up the image from /public at build time */
+  background: url('/bg_game-m10Pk1HC.jpg') no-repeat center center fixed;
   background-size: cover;
 }
